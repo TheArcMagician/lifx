@@ -15,7 +15,7 @@ bulb = devices[0]
 h,s,b,k = bulb.get_color()
 
 for i in range(10):
-	bulb.set_color(WHITE)
+	bulb.set_color(WARM_WHITE)
 
 	numb1 = (randint(1,10))
 	numb2 = (randint(1,10))
@@ -27,4 +27,4 @@ for i in range(10):
 		bulb.set_color(RED)
 	sleep(2)
 
-bulb.set_color(WHITE)
+bulb.set_color(WARM_WHITE)
